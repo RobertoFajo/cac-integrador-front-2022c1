@@ -1,0 +1,116 @@
+/* CLASES*/
+
+/*.container{
+    display: inline;
+}
+*/
+.bsas{
+    position: absolute;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: right;
+    top: 23em;
+    left: -12em;
+    width: 100%;
+    color: beige;
+    }
+
+.conf{
+    position: absolute;
+    font-size: 3em;
+    font-weight: 500;
+    top: 10em;
+    left: 31em;
+    width: 100%;
+    color: white;
+}
+
+
+.conoce{
+    text-align: center;
+    font-size: 1em;
+    margin: 1em;
+}
+
+.image {
+    position: relative;
+    width: 100%; /* for IE 6 */
+    
+       
+    }
+
+.imgcodo{
+    width: 15%;
+}
+
+.list-group{
+    font-size: 1.5em;
+}
+
+.list-group-item1{
+    font-size: 1em;
+    margin: 1em;
+    color: white;
+}
+
+.list-group-item2{
+    font-size: 1em;
+    margin: 1em;
+    color: aquamarine;
+}
+
+.list-group-item1:hover{
+    color: brown;
+}
+
+.list-group-item2:hover{
+    color: brown;
+}
+
+.menu{
+    display: block;
+    background-color: rgb(108, 117, 125);
+    width: 100%;
+}
+
+.oradores{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 500 ;
+    margin: -0.5em;
+}
+
+.principal{
+    background-image:url(\img\codoacodo.png);
+}
+
+/*ETIQUETAS*/
+
+body{
+    background-image:url("\img\ba1.jpg");
+    }
+
+h1{
+    color: white;
+}
+
+
+
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul{
+    color: white;
+    list-style-type: none;
+    display: inline;
+}
+
+#lista1 li {
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+   background-color:black;
+}
