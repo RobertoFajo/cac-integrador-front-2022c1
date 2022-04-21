@@ -6,71 +6,77 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/estilo.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <title>Conf Bs As</title>
     </head>
     <body>
-        <div class="menu">
-            <div class="container">
-                <img class="imgcodo" src="\img\codoacodo.png" width="100%"> 
-                <div class="confbsas">
-                    <h1>Conf Bs As</h1>
+        <div class="conteiner-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-2 bg-secondary text-white">
+                    <img class="imgcodo" src="\img\codoacodo.png" >
                 </div>
-            
-                <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item1 bg-secondary ">La conferencia</li>
-                    <li class="list-group-item1 bg-secondary ">Los oradores</li>
-                    <li class="list-group-item1 bg-secondary ">El lugar y la fecha</li>
-                    <li class="list-group-item1 bg-secondary ">Conviértete en orador</li>
-                    <li class="list-group-item2 bg-secondary ">Comprar tickets</li>
-                </ul>
-            <div>
-        </div>
-        
-
-        <div class="image">
-            <img src="\img\ba11.jpg">
-            <p class="conf">Conf Bs As</p>
-            <p class="bsas">Bs As llega por primera vez a Argentina. Un evento para compartir con <br> nuestra comunidad con el conocimiento y experiencia de los expertos que <br>están creando  el futuro de internet. Ven a conocer a miembros del <br>evento a otros estudiantes de Codo a Codo y los oradores de primer <br>nivel que tenemos para ti. Te esperamos! </p>
-
-            <button class="quiero">
-                Quiero ser Orador
-            </button>
-
-            <button class="comprar">
-                Comprar tickets
-            </button>
-
-            <div class="conoceoradores1">
-                <p class="conoce">
-                    CONOCE A LOS
-                </p>
-
-                <P class="oradores">
-                    ORADORES
-                </P> 
+                <div class="col-12 col-md-6 col-lg-2 bg-dark text-white">
+                    <div class="txt-confbsas">
+                        Conf Bs As
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-8 bg-secondary  text-white">
+                    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+                        <div class="container-fluid">
+                            <ul class="navbar-nav menu">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">La conferencia</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Los oradores</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">El lugar y la fecha</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Conviertete en orador</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navcomprar" href="#">Comprar tickets</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>                      
+                </div>
             </div>
+        </div>
 
-            <div class="container">
-                <div class="card" style="width:400px">
-                  <img class="card-img-top" src="\img\steve.jpg" alt="Card image" style="width:100%">
-                  
-                  <div class="card-body">
-                    <button class="btnjava">
-                        Java Script
-                    </button>
-                    <button class="btnreact">
-                        React
-                    </button>
+        <div class=conteiner-fuid>
+            
+                <div class="fondo-imagen">
+                    <p class="txt-conf">Conf Bs As</p>
+                    <p class="txt-bsas">Bs As llega por primera vez a Argentina. Un evento para compartir con <br> nuestra comunidad con el conocimiento y experiencia de los expertos que <br>están creando  el futuro de internet. Ven a conocer a miembros del <br>evento a otros estudiantes de Codo a Codo y los oradores de primer <br>nivel que tenemos para ti. Te esperamos! </p>
                     
-                    <h4 class="card-title">Steve Jobs</h4>
-                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, amet excepturi ducimus omnis voluptates corporis perferendis recusandae a deserunt libero explicabo nisi reiciendis ex obcaecati velit! Laudantium exercitationem esse aut!</p>
-                    
-                  </div>
-                  
-                </div>
+                    <button class="btn-quiero">
+                        Quiero ser Orador
+                    </button>
 
-                <div class="card1" style="width:400px">
-                        <img class="card-img-top" src="\img\bill.jpg" alt="Card image" style="width:100%">
+                    <button class="btn-comprar">
+                        Comprar tickets
+                    </button>
+                </div> 
+        </div>
+
+        <div class="conteiner">
+            <p class="conoce">
+                CONOCE A LOS
+            </p>
+        
+            <P class="oradores">
+                ORADORES
+            </P> 
+        </div>
+
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col p-3 bg-primary text-white">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="\img\steve.jpg" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <button class="btnjava">
                                 Java Script
@@ -78,11 +84,30 @@
                             <button class="btnreact">
                                 React
                             </button>
-                            <h4 class="card-title">Bill Gates</h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nobis qui modi error, fugiat culpa accusantium? Rerum dolorum suscipit vel nostrum quos excepturi sit unde nemo distinctio, ratione et eum.</p>
+            
+                            <h4 class="card-title">Steve Jobs</h4>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, amet excepturi ducimus omnis voluptates corporis perferendis recusandae a deserunt libero explicabo nisi reiciendis ex obcaecati velit! Laudantium exercitationem esse aut!</p>
+            
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col p-3 bg-dark text-white">
+                <div class="card1" style="width:400px">
+                    <img class="card-img-top" src="\img\bill.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <button class="btnjava">
+                            Java Script
+                        </button>
+                        <button class="btnreact">
+                            React
+                        </button>
+                        <h4 class="card-title">Bill Gates</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nobis qui modi error, fugiat culpa accusantium? Rerum dolorum suscipit vel nostrum quos excepturi sit unde nemo distinctio, ratione et eum.</p>
+                    </div>
                 <div>
-
+            </div>
+            <div class="col p-3 bg-primary text-white">
                 <div class="card2" style="width:400px">
                     <img class="card-img-top" src="\img\ada1.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
@@ -93,28 +118,23 @@
                             Startups
                         </button>
                         <h4 class="card-title">Ada Lovelace</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quis consectetur doloremque et laudantium porro, earum omnis autem veniam numquam! Laborum, alias eum iure vero ratione non sapiente esse? Dicta?</p>
-                        
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quis consectetur doloremque et laudantium porro, earum omnis autem veniam numquam! Laborum, alias eum iure vero ratione non sapiente esse? Dicta?</p> 
                     </div>
-                <div>
+                <div>      
             <div>
-            
-                
-
-            <div class="padre">
-                <div class="hijo">Quiero ser orador</div>
-                <div class="hijo1">Comprar tickets</div>
-            </div>
-            
         </div>
-            
-
-
-    
-
-        
-        
-    
-        
     </body>
 </html>
+
+ 
+
+
+    
+
+
+
+
+
+
+
+

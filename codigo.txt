@@ -1,0 +1,83 @@
+<div class="conoceoradores1">
+    <p class="conoce">
+        CONOCE A LOS
+    </p>
+
+    <P class="oradores">
+        ORADORES
+    </P> 
+</div>
+
+< class="container">
+    <div class="card" style="width:400px">
+      <img class="card-img-top" src="\img\steve.jpg" alt="Card image" style="width:100%">
+      
+      <div class="card-body">
+        <button class="btnjava">
+            Java Script
+        </button>
+        <button class="btnreact">
+            React
+        </button>
+        
+        <h4 class="card-title">Steve Jobs</h4>
+        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, amet excepturi ducimus omnis voluptates corporis perferendis recusandae a deserunt libero explicabo nisi reiciendis ex obcaecati velit! Laudantium exercitationem esse aut!</p>
+        
+      </div>
+      
+    </div>
+
+    <div class="card1" style="width:400px">
+            <img class="card-img-top" src="\img\bill.jpg" alt="Card image" style="width:100%">
+            <div class="card-body">
+                <button class="btnjava">
+                    Java Script
+                </button>
+                <button class="btnreact">
+                    React
+                </button>
+                <h4 class="card-title">Bill Gates</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nobis qui modi error, fugiat culpa accusantium? Rerum dolorum suscipit vel nostrum quos excepturi sit unde nemo distinctio, ratione et eum.</p>
+            </div>
+    <div>
+
+    <div class="card2" style="width:400px">
+        <img class="card-img-top" src="\img\ada1.jpg" alt="Card image" style="width:100%">
+        <div class="card-body">
+            <button class="btnnegocios">
+                Negocios
+            </button>
+            <button class="btnstartups">
+                Startups
+            </button>
+            <h4 class="card-title">Ada Lovelace</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quis consectetur doloremque et laudantium porro, earum omnis autem veniam numquam! Laborum, alias eum iure vero ratione non sapiente esse? Dicta?</p>
+            
+        </div>
+    <div>
+        
+<div>
+
+    
+
+    
+
+<div class="padre">
+    <div class="hijo">Quiero ser orador</div>
+    <div class="hijo1">Comprar tickets</div>
+</div>
+
+</div>
+
+<div class="container">
+<img class="honolulu" src="\img\honolulu.jpg">
+<div class="blockhonolulu">
+       <p class="bsasoctubre">
+           Bs As - Octubre
+       </p>
+       <P class="bsasoctutext">
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero nostrum voluptas tenetur dolorem ab illum enim. Accusamus fugit maiores, numquam ipsum ea autem veniam reprehenderit reiciendis quis excepturi laudantium rem?
+       </P>
+       
+</div>
+</div>

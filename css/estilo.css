@@ -4,16 +4,63 @@
     display: inline;
 }
 */
-.bsas{
+.blockhonolulu{
     position: absolute;
-    font-size: 1.5em;
-    font-weight: 600;
-    text-align: right;
-    top: 23em;
-    left: -8.5em;
-    width: 100%;
-    color: beige;
+    display: block;
+    width: 1000px;
+    height: 571px;
+    background-color: rgb(68, 73, 78);
+    left: -250px;
 }
+
+
+.bsasoctubre{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 2.5em;
+    font-weight: 500;
+    color: white;
+}
+
+.bsasoctutext{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    color: white;
+    font-size: 1.3em;
+}
+
+.btn-comprar{
+    position: relative;
+    height: 2.5em;
+    width: 10em;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    background: green;
+    border-radius:10px;
+    top: 28%;
+    left: 45%;
+    
+}
+
+
+.btn-quiero{
+    position: relative;
+    height: 2.5em;
+    width: 10em;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: white;
+    background: transparent;
+    border-radius:10px;
+    border-color: white;
+    border-width: 0.2em;
+    
+    right: -40%;
+}
+
 
 .btnjava{
     background: yellow;
@@ -69,42 +116,18 @@
     display: block;
 }
 
-.comprar{
-    position: absolute;
-    display: inline;
-    height: 2.5em;
-    width: 10em;
-    font-size: 1.5em;
-    font-weight: 500;
-    top: 5em;
-    left: 0em;
-    color: white;
-    background: green;
-    border-radius:10px;
-    top: 34em;
-    left: 62.5em;
-}
 
 
 
-.conf{
-    position: absolute;
-    font-size: 3em;
-    font-weight: 500;
-    top: 10em;
-    left: 31em;
-    width: 100%;
-    color: white;
-}
 
-.confbsas{
-    position: absolute;
-    top: 2em;
-    font-size: 1em;
-}
+
+
+
+
 
 .confmenu{
     font-size: 20em;
+    font-weight: ;
 }
 
 .conoce{
@@ -121,6 +144,16 @@
     
 }
 
+.fondo-imagen{
+    /*background-image: url("\img\honolulu.jpg");*/
+    background-color: darkgray;
+}
+
+.fondo-menu{
+    background-color: #353A40;
+    width: 100%;
+}
+
 .hijo {
     background-color: transparent;
     border-color: white;
@@ -132,7 +165,7 @@
     display: inline-block;
   }
 
-  .hijo1 {
+.hijo1 {
     background-color: green;
     padding: 10px;
     margin: 10px;
@@ -140,7 +173,14 @@
     
     /* IMPORTANTE */
     display: inline-block;
-  }
+}
+
+.honolulu{
+    position: absolute;
+    display: inline;
+    width: 900px;
+    left: -1150px;
+}
 
 .image {
     position: absolute;
@@ -150,11 +190,9 @@
     }
 
 .imgcodo{
-    position: absolute;
-    width: 8%;
-    top: 1em;
-    left: 9em;
-    margin-bottom: 10em;
+    position: relative;
+    width: 100px;
+    
 }
 
 .list-group{
@@ -188,10 +226,12 @@
 }
 
 .menu{
-    position: absolute;
+    position: relative;
+    
     display: block;
     background-color: rgb(108, 117, 125);
-    width: 1920px;
+    font-size: 16px;
+    top: 12%;
     
 }
 
@@ -217,28 +257,44 @@
     background-image:url(\img\codoacodo.png);
 }
 
-.quiero{
-    position: absolute;
-    display: inline;
-    height: 2.5em;
-    width: 10em;
-    font-size: 1.5em;
-    font-weight: 500;
-    top: 100em;
-    left: 0em;
-    color: white;
-    background: transparent;
-    border-radius:10px;
-    border-color: white;
-    top: 34em;
-    left: 50em;
+
+.navcomprar{
+    color: green;
 }
 
+.txt-bsas{
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+    top: 25%;
+    right: 10%;
+    color: white;
+}
+
+.txt-conf{
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: right;
+    color: white;
+    right:  10%;
+    top: 25%;
+}
+
+.txt-confbsas{
+    position: relative  ;
+    top: 15%;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
 /*ETIQUETAS*/
 
-body{
+/*body{
     background-image:url("\img\ba1.jpg");
-    }
+}
+*/
 
 h1{
     color: white;
