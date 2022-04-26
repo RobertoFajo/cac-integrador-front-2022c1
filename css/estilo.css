@@ -40,11 +40,36 @@
     color: white;
     background: green;
     border-radius:10px;
-    top: 28%;
-    left: 45%;
+    top: 50%;
+    left: 65%;
     
 }
 
+.btn-comprar:hover{
+    background: rgb(0, 77, 0);
+}
+
+.btn-enviar{
+    color: white;
+    background-color: #96C93E;
+    width: 100%;
+    height: 55px;
+    border-radius:10px;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.btn-enviar:hover{
+    color: darkgreen;
+}
+
+.btnjava{
+    background: yellow;
+    color: black;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+}
 
 .btn-quiero{
     position: relative;
@@ -57,17 +82,12 @@
     border-radius:10px;
     border-color: white;
     border-width: 0.2em;
-    
-    right: -40%;
+    top: 50%;
+    left: 60%;
 }
 
-
-.btnjava{
-    background: yellow;
-    color: black;
-    font-weight: 800;
-    border: none;
-    border-radius: 5px;
+.btn-quiero:hover{
+    background:  rgb(123, 123, 124);
 }
 
 .btnnegocios{
@@ -95,35 +115,27 @@
 }
 
 .card{
-    position: absolute;
-    top: 10em;
-    left: -8.2em;
+    position: relative;
+    
 }
 
 .card1{
-    position: absolute;
-    top: 77.5em;
-    left: 42em;
+    position: relative;
+    
 }
 
 .card2{
-    position: absolute;
-    top: 0em;
-    left: 30em;
+    position: relative;
+    
 }
 
-.container{
-    display: block;
+.card-text{
+    color: black;
 }
 
-
-
-
-
-
-
-
-
+.card-title{
+    color: black;
+}
 
 .confmenu{
     font-size: 20em;
@@ -136,62 +148,70 @@
     margin: 1em;
 }
 
+.conoce-pie{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 1em;
+}
+
 .conoceoradores1{
     position: absolute;
     top: 68em;
     text-align: auto;
-    left: 47em;
-    
+    left: 47em;    
+}
+
+.div-bsas{
+    background: #353A40;
+}
+
+.fondo-codo{
+    background: #353A40;
+}
+
+.fondo-bsas{
+    background: #353A40;
+}
+
+.row-ancho{
+    width: 1920px;
 }
 
 .fondo-imagen{
-    /*background-image: url("\img\honolulu.jpg");*/
-    background-color: darkgray;
+    background-image: url("../img/ba11.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+
+    /*background-color: darkgray;*/
+}
+
+.fondo-item{
+    background-color: #353A40;
 }
 
 .fondo-menu{
-    background-color: #353A40;
-    width: 100%;
-}
-
-.hijo {
-    background-color: transparent;
-    border-color: white;
-    border-width: 20px;
-    padding: 10px;
-    margin: 10px;
-    
-    /* IMPORTANTE */
-    display: inline-block;
-  }
-
-.hijo1 {
-    background-color: green;
-    padding: 10px;
-    margin: 10px;
-    
-    
-    /* IMPORTANTE */
-    display: inline-block;
+    background: #353A40;
 }
 
 .honolulu{
-    position: absolute;
-    display: inline;
-    width: 900px;
-    left: -1150px;
+    background-image: url("../img/honolulu.jpg");
+    background-size: 1000px;
+    width: 450px;
+    height: 600px;
 }
 
 .image {
     position: absolute;
-    width: 100%; /* for IE 6 */
+    width: 30%; /* for IE 6 */
+    
     left: 0px;
        
     }
 
 .imgcodo{
     position: relative;
-    width: 100px;
+    width: 150px;
     
 }
 
@@ -227,12 +247,28 @@
 
 .menu{
     position: relative;
-    
-    display: block;
+    margin: 0px;
+    padding: 0px;
     background-color: rgb(108, 117, 125);
-    font-size: 16px;
+    font-size: 22px;
     top: 12%;
     
+}
+
+.navegacion-pie{
+    color: white;
+    background-color: #1E5170;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: right;
+    margin margin-top: -50px;
+}
+
+
+
+.comp{
+    color: green;
 }
 
 .oradores{
@@ -261,14 +297,50 @@
 .navcomprar{
     color: green;
 }
+.honolulu-btn{
+    position: relative;
+    height: 2em;
+    width: 7.5em;
+    font-size: 1.2em;
+    color: white;
+    background: transparent;
+    border-radius:10px;
+    border-color: white;
+    border-width: 0.1em;
+    top: 5%;
+    left: 0%;
+}
+
+.honolulu-btn:hover{
+    color: cornflowerblue;
+}
+
+.honolulu-texto{
+    color: white;
+    font-size: 18px;
+}
+
+.honolulu-titulo{
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.pading0{
+    padding: 0px;
+}
+.punteado{
+    border-bottom: 1px dashed #999;
+    text-decoration: none; 
+}
 
 .txt-bsas{
     position: relative;
     font-size: 18px;
     font-weight: 600;
     text-align: right;
-    top: 25%;
-    right: 10%;
+    top: 50%;
+    right: 8%;
     color: white;
 }
 
@@ -278,14 +350,14 @@
     font-weight: 500;
     text-align: right;
     color: white;
-    right:  10%;
-    top: 25%;
+    right:  8%;
+    top: 50%;
 }
 
 .txt-confbsas{
     position: relative  ;
     top: 15%;
-    font-size: 20px;
+    font-size: 27px;
     font-weight: 400;
     
 }
@@ -298,6 +370,28 @@
 
 h1{
     color: white;
+}
+
+#menu-pie{
+    background-color: #1E5170;
+}
+
+#menu-pie ul{
+    align-items: center;
+}
+
+#menu-pie ul li a{
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 50px 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#menu-pie ul li a:hover{
+    color: rgb(136, 121, 177);
 }
 
 
@@ -318,7 +412,7 @@ ul{
     display:inline;
     padding-left:3px;
     padding-right:3px;
-   background-color:black;
+    background-color:black;
 }
 
 
